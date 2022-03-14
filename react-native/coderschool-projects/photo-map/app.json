@@ -1,0 +1,30 @@
+{
+  " ": {
+    "name": "photo-map",
+    "slug": "photo-map",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.photomap",
+      "config": {
+        "googleMapsApiKey": "AIzaSyDPhRJHT5yQd9Tx6QnsbvSRRLJjeuMWiCc"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
