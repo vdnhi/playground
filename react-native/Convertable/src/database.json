@@ -1,0 +1,56 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name" : "Length",
+      "items" : [
+        { 
+          "id": 0, 
+          "title": "Meter", 
+          "ratio": 1 
+        },
+        { 
+          "id": 1, 
+          "title": "Decimeter", 
+          "ratio": 0.1 
+        },
+        { 
+          "id": 2, 
+          "title": "Centimeter", 
+          "ratio": 0.01 
+        },
+        { 
+          "id": 3, 
+          "title": "Milimeter", 
+          "ratio": 0.001 
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name" : "Weight",
+      "items" : [
+        { 
+          "id": 0, 
+          "title": "Tons", 
+          "ratio": 1 
+        },
+        { 
+          "id": 1, 
+          "title": "Kilogram", 
+          "ratio": 0.001 
+        },
+        { 
+          "id": 2, 
+          "title": "Gram", 
+          "ratio": 0.000001 
+        },
+        { 
+          "id": 3, 
+          "title": "Miligram", 
+          "ratio": 0.000000001 
+        }
+      ]
+    }
+  ]
+}
